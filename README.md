@@ -1,4 +1,4 @@
-The purpose of this assignmnet is show case how to part of HadoopEssence book published on amzon.
+The purpose of this assignmnet is show case how to part of HadoopEssence book published on amazon.
 http://www.amazon.com/Hadoop-Essence-The-Beginners-Guide/dp/1500910643
 
 How to Run:
