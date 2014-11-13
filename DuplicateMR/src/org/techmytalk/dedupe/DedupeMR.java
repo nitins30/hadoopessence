@@ -1,4 +1,4 @@
-package org.techmytalk.hadoopessence.dedupe;
+package org.techmytalk.dedupe;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -47,9 +47,7 @@ public class DedupeMR {
 
 		public void reduce(KeyGroup key, Iterable<IntWritable> values,
 				Context context) throws IOException, InterruptedException {
-
 			int sum = 0;
-
 			for (IntWritable inte : values) {
 				sum += inte.get();
 			}
